@@ -1,0 +1,13 @@
+
+$text-font: "Lato", sans-serif;
+
+$font-sizes: (tiny: 8px, small: 12px, medium: 16px, large: 20px);
+
+
+@mixin google-font($font) {
+  $font: unquote($font);
+  @import url(https://fonts.googleapis.com/css?family=#{$font});
+}
+
+
+
